@@ -1,0 +1,11 @@
+digraph "life.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="life.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function prototypes for gl.c."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gl.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gl_8c.html",tooltip="Game of life with 3 modes: hedge, torus, and klein."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="life.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$life_8c.html",tooltip="Function definitions for gl.c."];
+}
